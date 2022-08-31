@@ -1,0 +1,260 @@
+header,
+header > * {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  background: linear-gradient(
+      90deg,
+      rgba(9, 55, 121, 1) 0%,
+      rgba(9, 55, 121, 1) 0.1%,
+      rgba(9, 55, 121, 1) 100%
+    ),
+    url("/public/assets/images/concrete-bw.png");
+  background-repeat: repeat;
+  z-index: 999;
+}
+/* .nav-bar::after {
+  position: absolute;
+  width: 100%;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 1rem;
+  background-image: url('/public/assets/images/tape-cut.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.nav-bar-container {
+  width: 1220px;
+  height: calc(100% - 1rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin: auto;
+  padding-left: 0.625rem;
+  padding-right: 1.25rem;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo a {
+  font-size: 1.75rem;
+}
+
+.logo a > span {
+  font-family: "Open Sans";
+  font-weight: 600;
+  display: block;
+  text-align: left;
+}
+
+.navbar-button {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+.navbar-button:hover {
+  cursor: pointer;
+}
+
+.logo a,
+.navbar-link,
+.navbar-button,
+.user-name-container {
+  color: rgb(245 245 245);
+}
+
+.navbar-links-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.navbar-links-container {
+  gap: 2rem;
+}
+
+.user-name-container {
+  margin-right: 2rem;
+}
+
+.navbar-link {
+  font-family: "Abel", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mobile-open-button {
+  font-size: 2.5rem;
+  color: rgb(245 245 245);
+  border: none;
+  background: transparent;
+  padding: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.mobile-open-button,
+.mobile-open-button span {
+  line-height: 1;
+}
+
+.mobile-open-button.open {
+  font-size: 4rem;
+}
+
+.mobile-open-button {
+  display: none;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-bar-container {
+    width: 90vw;
+  }
+
+  .navbar-links-container {
+    gap: 1.5rem;
+  }
+
+  .user-name-container {
+    margin-right: 1.5rem;
+  }
+
+  .navbar-link {
+    font-size: 1rem;
+  }
+
+  .logo a > span {
+    font-size: 1.65rem;
+  }
+
+  .logo a > span > span {
+    font-size: 1.35rem;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .navbar-links-container > .navbar-link,
+  .navbar-link span {
+    display: none;
+  }
+
+  .navbar-icon {
+    margin-right: 0;
+  }
+
+  .nav-bar-container {
+    padding: 0;
+  }
+
+  .mobile-open-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nav-bar {
+    height: 4.5rem;
+  }
+
+  .nav-bar-container {
+    height: calc(100% - 0.5rem);
+  }
+
+  .nav-bar::after {
+    height: 0.5rem;
+  }
+
+  .navbar-links-container {
+    gap: 1rem;
+  }
+
+  .logo::after {
+    height: 2px;
+    bottom: -2px;
+  }
+
+  .logo a > span {
+    font-size: 1.3rem;
+  }
+
+  .navbar-icon {
+    height: 2.3rem;
+  }
+
+  .mobile-open-button {
+    font-size: 2.3rem;
+  }
+
+  .mobile-open-button.open {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .navbar-links-container {
+    gap: 0.5rem;
+  }
+
+  .navbar-icon {
+    height: 2rem;
+  }
+
+  .mobile-open-button {
+    font-size: 2rem;
+  }
+
+  .mobile-open-button.open {
+    font-size: 3.1rem;
+  }
+
+  .logo a > span {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo a > span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-links-container {
+    gap: 0.3rem;
+  }
+
+  .navbar-icon {
+    height: 1.7rem;
+  }
+
+  .mobile-open-button {
+    font-size: 1.7rem;
+  }
+
+  .mobile-open-button.open {
+    font-size: 2.6rem;
+  }
+
+  .logo a {
+    font-size: 0.7rem;
+  }
+}
