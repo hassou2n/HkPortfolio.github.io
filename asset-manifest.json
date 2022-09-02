@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HkPortfolio.github.io/static/css/main.ba13c610.css",
-    "main.js": "/HkPortfolio.github.io/static/js/main.af9429fe.js",
-    "static/js/787.5c291905.chunk.js": "/HkPortfolio.github.io/static/js/787.5c291905.chunk.js",
-    "static/media/concrete-bw.png": "/HkPortfolio.github.io/static/media/concrete-bw.d16761ceef24f03c0822.png",
-    "index.html": "/HkPortfolio.github.io/index.html",
-    "main.ba13c610.css.map": "/HkPortfolio.github.io/static/css/main.ba13c610.css.map",
-    "main.af9429fe.js.map": "/HkPortfolio.github.io/static/js/main.af9429fe.js.map",
-    "787.5c291905.chunk.js.map": "/HkPortfolio.github.io/static/js/787.5c291905.chunk.js.map"
+    "main.css": "/hkportfolio.github.io/static/css/main.f7a15a63.css",
+    "main.js": "/hkportfolio.github.io/static/js/main.4a97d59c.js",
+    "static/js/787.5c291905.chunk.js": "/hkportfolio.github.io/static/js/787.5c291905.chunk.js",
+    "static/media/concrete-bw.png": "/hkportfolio.github.io/static/media/concrete-bw.d16761ceef24f03c0822.png",
+    "index.html": "/hkportfolio.github.io/index.html",
+    "main.f7a15a63.css.map": "/hkportfolio.github.io/static/css/main.f7a15a63.css.map",
+    "main.4a97d59c.js.map": "/hkportfolio.github.io/static/js/main.4a97d59c.js.map",
+    "787.5c291905.chunk.js.map": "/hkportfolio.github.io/static/js/787.5c291905.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba13c610.css",
-    "static/js/main.af9429fe.js"
+    "static/css/main.f7a15a63.css",
+    "static/js/main.4a97d59c.js"
   ]
 }
