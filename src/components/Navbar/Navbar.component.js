@@ -34,7 +34,19 @@ export const Navbar = () => {
               setIsMobileNavOpen(!isMobileNavOpen);
             }}
           >
-            {isMobileNavOpen ? <span>&times;</span> : <span>&#x2630;</span>}
+            {isMobileNavOpen ? (
+              <div className="_2_1Hw _1XNn4">
+                <div className="_2x2ES _3SfeL _2Gsgc"></div>
+                <div className="_2x2ES _2vsXM"></div>
+                <div className="_2x2ES _3SfeL _24e0Q"></div>
+              </div>
+            ) : (
+              <div className="_2_1Hw">
+                <div className="_2x2ES _3SfeL _2Gsgc"></div>
+                <div className="_2x2ES _2vsXM"></div>
+                <div className="_2x2ES _3SfeL _24e0Q"></div>
+              </div>
+            )}
           </button>
         </nav>
         <MobileNavbar
