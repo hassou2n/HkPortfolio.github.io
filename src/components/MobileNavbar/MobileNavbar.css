@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 .mobile-nav-bar {
-  background: linear-gradient(
-      90deg,
-      rgba(9, 55, 121, 1) 0%,
-      rgba(9, 55, 121, 1) 0.1%,
-      rgba(9, 55, 121, 1) 100%
-    ),
-    url("/public/assets/images/concrete-bw.png");
-  background-repeat: repeat;
+  background: #101010;
   z-index: 1;
   width: 100vw;
   height: 0%;

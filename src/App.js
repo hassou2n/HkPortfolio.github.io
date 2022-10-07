@@ -22,7 +22,7 @@ function App() {
 const RouteList = () => {
   return (
     <Routes>
-      <Route path="/about-me" element={<AboutMe />} />
+      <Route path="/" element={<AboutMe />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/projects" element={<MyProjects />} />
       <Route path="/contact" element={<Contact />} />

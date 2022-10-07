@@ -7,15 +7,16 @@ export const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
   return (
-    <header className="nav-bar">
+    <header className="header-container">
+            <div className="nav-bar">
       <div className="nav-bar-container">
         <div className="logo">
-          <Link to="/about-me">
+          <Link to="/">
             <span>Hussein Khaleefah</span>
           </Link>
         </div>
         <nav className="navbar-links-container">
-          <Link className="navbar-link" to="/about-me">
+          <Link className="navbar-link" to="/">
             ABOUT ME
           </Link>
           <Link className="navbar-link" to="/resume">
@@ -53,7 +54,8 @@ export const Navbar = () => {
           open={isMobileNavOpen}
           handleMobile={setIsMobileNavOpen}
         />
-      </div>
+        </div>
+        </div>
     </header>
   );
 };
