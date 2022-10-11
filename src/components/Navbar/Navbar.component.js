@@ -12,21 +12,21 @@ export const Navbar = () => {
       <div className="nav-bar-container">
         <div className="logo">
           <Link to="/">
-            <span>Hussein Khaleefah</span>
+            <span>•Hk</span>
           </Link>
         </div>
         <nav className="navbar-links-container">
           <Link className="navbar-link" to="/">
-            ABOUT ME
+          <span>•</span>ABOUT ME
           </Link>
           <Link className="navbar-link" to="/resume">
-            RESUME
+          <span>•</span>RESUME
           </Link>
           <Link className="navbar-link" to="/projects">
-            PROJECTS
+          <span>•</span>PROJECTS
           </Link>
           <Link className="navbar-link" to="/contact">
-            CONTACT
+          <span>•</span>CONTACT
           </Link>
           <button
             type="button"
