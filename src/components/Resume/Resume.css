@@ -15,17 +15,16 @@
   text-align: center;
 }
 
-.Button {
-display: flex;
-justify-content: right;
+.ResumeButton {
+  display: flex;
+  justify-content: right;
 }
 
-.Button button{
+.ResumeButton button {
   background-color: #ffb632;
   width: 154px;
-  height: 40px;
+  height: 30px;
   border: none;
-  border-radius: 25px;
   font-size: 16px;
 }
 
@@ -42,27 +41,92 @@ justify-content: right;
   display: flex;
   align-items: center;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: -5px;
 }
 
 .ResumeContainer div > h1 > span {
   color: #ffb632;
-  font-size: 100px;
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .ResumeContainer div > p {
-  height: 25px;
   display: flex;
   align-items: center;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+.ResumeContainer div ul {
+  list-style: none;
+}
+
+.ResumeContainer div ul ::before {
+  content: "\2022";
+  color: #ffb632;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .ResumeContainer div > p > span {
   color: #ffb632;
   font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.Other{
+.Other {
   color: #ffb632;
+}
+
+.Other span {
+  margin-left: 5px;
+}
+
+.OtherUl {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 1420px) {
+}
+
+@media screen and (max-width: 1249px) {
+}
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 990px) {
+}
+
+@media screen and (max-width: 899px) {
+}
+
+@media screen and (max-width: 820px) {
+}
+
+@media screen and (max-width: 809px) {
+}
+
+@media screen and (max-width: 723px) {
+}
+
+@media screen and (max-width: 670px) {
+}
+
+@media screen and (max-width: 595px) {
+}
+
+@media screen and (max-width: 560px) {
+
+}
+
+@media screen and (max-width: 360px) {
+
+
+}
+
+@media screen and (max-width: 300px) {
 }

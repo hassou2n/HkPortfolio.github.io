@@ -52,16 +52,15 @@ span {
   margin: 0 5px 0 15px;
 }
 
-.Button {
+.ContactButton {
   display: flex;
   justify-content: right;
 }
 
-.Button button {
+.ContactButton button {
   width: 154px;
-  height: 40px;
+  height: 30px;
   border: none;
-  border-radius: 25px;
   font-size: 16px;
   color: #2c2c2c;
   background-color: #ffb632;

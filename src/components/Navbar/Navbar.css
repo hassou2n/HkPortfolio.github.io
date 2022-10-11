@@ -20,6 +20,7 @@
   padding-bottom: 70px;
   top: 0;
   background: #ffffff;
+  
 }
 
 .nav-bar {
@@ -29,6 +30,7 @@
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 999;
   width: 100%;
   transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
   -moz-transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);

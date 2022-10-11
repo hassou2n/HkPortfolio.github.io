@@ -19,13 +19,11 @@
   max-width: 80%;
 }
 
-.circle-image  {
-  position: relative;
+.circle-image {
   border-radius: 50%;
 }
 
 .circle-image img {
-  position: relative;
   border-radius: 50%;
   width: 80%;
   height: 80%;
@@ -44,7 +42,6 @@
 }
 .css-typing {
   margin: 5px 7px 5px 7px;
-  position: absolute;
 }
 
 .css-typing span {
@@ -87,4 +84,62 @@
   50% {
     border-color: #ffb632;
   }
+}
+
+
+@media screen and (max-width: 1420px) {
+  
+}
+
+@media screen and (max-width: 1249px) {
+ 
+}
+
+@media screen and (max-width: 1080px) {
+ 
+}
+
+@media screen and (max-width: 990px) {
+ 
+}
+
+@media screen and (max-width: 899px) {
+ 
+}
+
+@media screen and (max-width: 820px) {
+ 
+}
+
+@media screen and (max-width: 809px) {
+  
+}
+
+@media screen and (max-width: 723px) {
+ 
+}
+
+@media screen and (max-width: 670px) {
+ 
+}
+
+@media screen and (max-width: 595px) {
+  
+}
+
+@media screen and (max-width: 560px) {
+    
+}
+
+@media screen and (max-width: 463px) {
+ 
+}
+
+@media screen and (max-width: 360px) {
+
+ 
+}
+
+@media screen and (max-width: 300px) {
+ 
 }
