@@ -10,7 +10,7 @@ export const Contact = () => {
         <div className="FormContainer">
           <form
             class="form"
-            action="https://htmlFormsubmit.co/husseinosamah2@gmail.com"
+            action="https://formsubmit.co/husseinosamah2@gmail.com"
             method="POST"
           >
             <input className="None" type="text" name="_honey" />
