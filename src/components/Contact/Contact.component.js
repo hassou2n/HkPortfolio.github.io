@@ -6,31 +6,33 @@ export const Contact = () => {
     <div className="Contact">
       <div className="ContactContainer">
         <h1 className="Tittle">Contact</h1>
-        <div className="container">
+
+        <div className="FormContainer">
           <form
+            class="form"
             action="https://htmlFormsubmit.co/husseinosamah2@gmail.com"
             method="POST"
           >
-            <div className="row input-container">
-                <div className="styled-input wide">
-                  <label htmlFor="Name">Name</label>
-                  <input type="text" name="Name" id="Name" required />
-                </div>
-                <div className="styled-input wide">
-                  <label htmlFor="emailInfo">E-mail</label>
-                  <input type="email" name="email" id="emailInfo" required />
-              </div>
+            <input className="None" type="text" name="_honey" />
 
-                <div className="styled-input wide">
-                  <label htmlFor="comments">Comments, questions?</label>
-                  <textarea
-                    id="comments"
-                    name="comments,&nbsp;questions"
-                    required
-                  ></textarea>
-                </div>
-                <div className="btn-lrg submit-btn">Send Message</div>
-            </div>
+            <input type="hidden" name="_captcha" value="false" />
+
+            <input type="hidden" name="_next" value="" />
+            <p type="Name*">
+              <label for="name"></label>
+              <input name="name" id="name" required></input>
+            </p>
+            <p type="Email*">
+              <label for="email"></label>
+              <input name="email" id="name" required></input>
+            </p>
+            <p type="Message*">
+              <label for="message"></label>
+              <textarea name="message" id="message" required></textarea>
+            </p>
+            <p className="Button">
+              <button type="submit">Send Message</button>
+            </p>
           </form>
         </div>
       </div>
