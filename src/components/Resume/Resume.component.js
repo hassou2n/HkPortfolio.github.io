@@ -19,7 +19,7 @@ export const Resume = () => {
           </h1>
           <p>
             <ul>
-              <li> Udemy, Master JavaScript | Jun 2021 - Present</li>
+              <li>Udemy, Master JavaScript | Jun 2021 - Present</li>
               <li>
                 HackYourFuture, Full Stack Development | Nov 2021 - Aug 2022
               </li>
