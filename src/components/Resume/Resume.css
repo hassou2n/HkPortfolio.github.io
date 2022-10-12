@@ -50,7 +50,7 @@ cursor: pointer;
   display: flex;
   align-items: center;
   margin-right: 10px;
-  margin-left: -5px;
+  margin-left: 10px;
 }
 
 .ResumeContainer div > h1 > span {

@@ -19,34 +19,37 @@
   max-width: 80%;
 }
 
-.circle-image {
-  border-radius: 50%;
+.AboutMeDivContainer {
+  display: flex;
+  align-items: center;
 }
 
 .circle-image img {
   border-radius: 50%;
-  width: 80%;
-  height: 80%;
+  position: relative;
+  right: -40px;
+  width: 250px;
+  height: 250px;
 }
 
 .ITitle {
-  padding-left: 230px;
+  margin: 0 0 0 125px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 18px;
 }
 
 .ITitle strong {
   color: #ffb632;
-  font-size: 48px;
-  line-height: 50px;
+  font-size: 25px;
 }
-.css-typing {
-  margin: 5px 7px 5px 7px;
+
+.Hello {
+  margin: 10px 0 10px 0;
 }
 
 .css-typing span {
   border-right: 0.15em solid #ffb632;
-  font-size: 19px;
+  font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -86,60 +89,226 @@
   }
 }
 
-
 @media screen and (max-width: 1420px) {
-  
 }
 
 @media screen and (max-width: 1249px) {
- 
 }
 
 @media screen and (max-width: 1080px) {
- 
 }
 
 @media screen and (max-width: 990px) {
- 
 }
 
 @media screen and (max-width: 899px) {
- 
 }
 
 @media screen and (max-width: 820px) {
- 
+  .circle-image img {
+    border-radius: 50%;
+    position: relative;
+    right: -40px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .ITitle {
+    margin: 0 0 0 125px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .ITitle strong {
+    color: #ffb632;
+    font-size: 25px;
+  }
+
+  .Hello {
+    margin: 10px 0 10px 0;
+  }
+
+  .css-typing span {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 809px) {
-  
+  .ITitle strong {
+    color: #ffb632;
+    font-size: 19px;
+  }
+
+  .circle-image img {
+    right: -22px;
+  }
+  .ITitle {
+    margin: 0 0 0 65px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .css-typing span {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 723px) {
- 
 }
 
 @media screen and (max-width: 670px) {
- 
+  .circle-image img {
+    right: -33px;
+    width: 200px;
+    height: 200px;
+  }
+  .ITitle {
+    margin: 0 0 0 60px;
+  }
 }
 
 @media screen and (max-width: 595px) {
-  
+  .ITitle strong {
+    color: #ffb632;
+    font-size: 19px;
+  }
+
+  .circle-image img {
+    width: 180px;
+    height: 180px;
+  }
 }
 
 @media screen and (max-width: 560px) {
-    
+  .ITitle strong {
+    font-size: 15px;
+  }
+
+  .circle-image img {
+    width: 160px;
+    height: 160px;
+  }
+  .ITitle {
+    margin: 0 0 0 60px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .Hello {
+    margin: 5px 0 5px 0;
+  }
+  .css-typing span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 463px) {
- 
+  .ITitle strong {
+    font-size: 15px;
+  }
+
+  .circle-image img {
+    right: -18px;
+    width: 150px;
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 360px) {
+  .AboutMeDivContainer {
+    flex-direction: column;
+  }
 
- 
+  .circle-image img {
+    top: -55px;
+    right: 70px;
+  }
+
+  .ITitle {
+    margin: 0 0 0 85px;
+    font-size: 12px;
+  }
+
+  .ITitle strong {
+    font-size: 18px;
+  }
+  .css-typing span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 300px) {
- 
+  .circle-image img {
+    top: -55px;
+    right: 58px;
+  }
+
+  .ITitle {
+    font-size: 10px;
+  }
+
+  .ITitle strong {
+    font-size: 14px;
+  }
+  .css-typing span {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .AboutMeDivContainer {
+    flex-direction: column;
+  }
+
+  .circle-image img {
+    position: relative;
+    right: 12px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .ITitle {
+    margin: 0 0 0 85px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .Hello {
+    margin: 10px 0 10px 0;
+  }
+  .ITitle strong {
+    font-size: 20px;
+    line-height: 0;
+  }
+  .css-typing span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) {
+  .AboutMeDivContainer {
+    display: flex;
+    align-items: center;
+  }
+  .circle-image img {
+    position: relative;
+    right: -75px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .ITitle {
+    margin: 0 0 0 125px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .Hello {
+    margin: 10px 0 10px 0;
+  }
+  .ITitle strong {
+    font-size: 24px;
+    line-height: 0;
+  }
+  .css-typing span {
+    font-size: 19px;
+  }
 }

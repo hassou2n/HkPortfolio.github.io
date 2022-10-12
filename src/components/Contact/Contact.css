@@ -40,16 +40,12 @@ textarea:focus {
   border-bottom: 2px solid #2c2c2c;
 }
 
-p:before {
+.FormContainer p:before {
   content: attr(type);
   display: block;
   margin: 28px 0 0;
   font-size: 14px;
   color: #2c2c2c;
-}
-
-span {
-  margin: 0 5px 0 15px;
 }
 
 .ContactButton {
@@ -113,6 +109,9 @@ span {
 }
 
 @media screen and (max-width: 670px) {
+  textarea {
+    height: 80px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -124,6 +123,9 @@ span {
     width: 130px;
     height: 30px;
     font-size: 12px;
+  }
+  textarea {
+    height: 80px;
   }
 }
 
@@ -146,6 +148,12 @@ span {
 }
 
 @media screen and (max-width: 300px) {
+  .FormContainer {
+    width: 250px;
+  }
+  textarea {
+    height: 80px;
+  }
 }
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .FormContainer {

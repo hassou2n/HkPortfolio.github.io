@@ -8,7 +8,7 @@ export const MobileNavbar = (props) => {
   return (
     <nav className={isOpenClass}>
       <Link
-        to="/about-me"
+        to="/"
         onClick={() => {
           props.handleMobile(false);
         }}
