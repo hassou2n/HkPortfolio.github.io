@@ -20,12 +20,17 @@
   justify-content: right;
 }
 
+.ResumeButton p a {
+  text-decoration: none;
+  }
+  
 .ResumeButton button {
   background-color: #ffb632;
   width: 154px;
   height: 30px;
   border: none;
   font-size: 16px;
+cursor: pointer;
 }
 
 .ResumeContainer div {

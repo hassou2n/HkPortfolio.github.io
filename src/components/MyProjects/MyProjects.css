@@ -86,12 +86,18 @@
   justify-content: center;
 }
 
+.ProjectsButton p a {
+text-decoration: none;
+}
+
+
 .ProjectsButton button {
   background-color: #ffb632;
   width: 400px;
   height: 30px;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1420px) {
