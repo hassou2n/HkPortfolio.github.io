@@ -20,11 +20,6 @@
   justify-content: right;
 }
 
-.ResumeButton a {
-  text-decoration: none;
-  color: #2c2c2c;
-}
-
 .ResumeButton button {
   background-color: #ffb632;
   width: 154px;
@@ -32,6 +27,8 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
+  color: #2c2c2c;
 }
 
 .ResumeContainer div {

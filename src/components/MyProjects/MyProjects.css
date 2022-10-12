@@ -86,12 +86,6 @@
   justify-content: center;
 }
 
-.ProjectsButton a {
-  text-decoration: none;
-  color: #2c2c2c;
-}
-
-
 .ProjectsButton button {
   background-color: #ffb632;
   width: 400px;
@@ -99,6 +93,8 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
+  color: #2c2c2c;
 }
 
 @media screen and (max-width: 1420px) {
@@ -270,7 +266,7 @@
   }
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 475px) {
   .ProjectsContainer div {
     height: 300px;
     margin: 30px 0 150px 0;
@@ -288,7 +284,7 @@
     margin-top: 50px;
   }
 
-  .ProjectsContainer div > p:nth-child(2)  {
+  .ProjectsContainer div > p:nth-child(2) {
     margin-top: -35px;
   }
 
@@ -303,7 +299,7 @@
     max-width: 160px;
     max-height: 80px;
   }
- 
+
   .DivContainer p img {
     max-width: 160px;
     max-height: 80px;
@@ -353,7 +349,6 @@
   .DivContainer p img {
     max-width: 160px;
     max-height: 80px;
- 
   }
 
   .ProjectsButton {
@@ -372,14 +367,7 @@
 @media screen and (max-width: 300px) {
 }
 
-
-
-
-
-@media only screen
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .ProjectsContainer div {
     height: 300px;
     margin: 30px 0 150px 0;
@@ -407,7 +395,7 @@
     max-width: 160px;
     max-height: 80px;
   }
- 
+
   .DivContainer p img {
     max-width: 160px;
     max-height: 80px;
@@ -425,4 +413,3 @@
     font-size: 14px;
   }
 }
-  
