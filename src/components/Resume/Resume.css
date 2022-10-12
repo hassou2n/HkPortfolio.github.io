@@ -20,6 +20,10 @@
   justify-content: right;
 }
 
+a{
+ color: #2c2c2c;
+}
+
 .ResumeButton p a {
 color: #2c2c2c;
   }

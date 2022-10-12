@@ -86,9 +86,9 @@
   justify-content: center;
 }
 
-.ProjectsButton p a {
+a{
   color: #2c2c2c;
-}
+ }
 
 
 .ProjectsButton button {
