@@ -7,7 +7,7 @@ export const AboutMe = () => {
       <div className="AboutMeContainer">
         <div className="AboutMeDivContainer">
         <div class="circle-image">
-          <img src="assets/images/my-img.jpg" width="50px" height="50px"/>
+          <img src="assets/images/my-img.png" width="50px" height="50px"/>
         </div>
 
         <div className="ITitle">
