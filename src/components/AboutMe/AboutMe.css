@@ -256,11 +256,11 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .AboutMeDivContainer {
     flex-direction: column;
+    margin-bottom: 225px;
   }
 
   .circle-image img {
-    position: relative;
-    right: 12px;
+    right: 75px;
     width: 170px;
     height: 170px;
   }

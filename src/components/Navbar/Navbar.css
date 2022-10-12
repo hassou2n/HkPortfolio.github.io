@@ -188,6 +188,11 @@
 }
 
 @media screen and (max-width: 1230px) {
+
+  .header-container {
+    padding-bottom: 70px;
+  }
+
   .navbar-links-container > .navbar-link,
   .navbar-link span {
     display: none;
@@ -297,8 +302,8 @@
     and (device-width : 375px)
     and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3) { 
-
     
+   
     }
 
  

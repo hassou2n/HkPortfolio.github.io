@@ -20,21 +20,18 @@
   justify-content: right;
 }
 
-a{
- color: #2c2c2c;
+.ResumeButton a {
+  text-decoration: none;
+  color: #2c2c2c;
 }
 
-.ResumeButton p a {
-color: #2c2c2c;
-  }
-  
 .ResumeButton button {
   background-color: #ffb632;
   width: 154px;
   height: 30px;
   border: none;
   font-size: 16px;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .ResumeContainer div {
@@ -129,32 +126,25 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 560px) {
-
 }
 
 @media screen and (max-width: 360px) {
-
-
 }
 
 @media screen and (max-width: 300px) {
 }
 
-@media only screen
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (-webkit-device-pixel-ratio : 3) { 
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .ResumeButton button {
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+  }
 
-.ResumeButton button {
-  width: 160px;
-  height: 30px;
-  font-size: 14px;
+  .ResumeContainer div > h1 {
+    font-size: 20px;
+  }
+  .ResumeContainer div > h1 > span {
+    font-size: 40px;
+  }
 }
-
-.ResumeContainer div > h1 {
-  font-size: 20px;
-}
-.ResumeContainer div > h1 > span {
-  font-size: 40px;
-}
-    }
