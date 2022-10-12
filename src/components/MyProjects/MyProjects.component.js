@@ -22,6 +22,7 @@ export const MyProjects = () => {
                   src="assets/images/KaospilotToolbox.jpg"
                   width="800px"
                   height="450px"
+                  alt="img"
                 />
                 <p className="ProjectsButton">
                   <a
@@ -58,6 +59,7 @@ export const MyProjects = () => {
                   src="assets/images/CookingPot.jpg"
                   width="800px"
                   height="450px"
+                  alt="img"
                 />
                 <p className="ProjectsButton">
                   <a
@@ -89,6 +91,7 @@ export const MyProjects = () => {
                   src="assets/images/ChameleonTodoListApp.jpg"
                   width="800px"
                   height="450px"
+                  alt="img"
                 />
                 <p className="ProjectsButton">
                   <a

@@ -69,3 +69,109 @@ span {
 .None {
   display: none;
 }
+
+@media screen and (max-width: 1420px) {
+}
+
+@media screen and (max-width: 1249px) {
+}
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 990px) {
+}
+
+@media screen and (max-width: 899px) {
+  .FormContainer {
+    width: 450px;
+    padding: 30px 30px 30px 30px;
+  }
+  .ContactButton button {
+    width: 154px;
+    height: 30px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+}
+
+@media screen and (max-width: 809px) {
+}
+
+@media screen and (max-width: 723px) {
+  .FormContainer {
+    width: 350px;
+    padding: 15px 15px 15px 15px;
+  }
+  .ContactButton button {
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+}
+
+@media screen and (max-width: 450px) {
+  .FormContainer {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+  }
+  .ContactButton button {
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+}
+
+@media screen and (max-width: 360px) {
+  .FormContainer {
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+  }
+  .ContactButton button {
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+  }
+  textarea {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .FormContainer {
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+  }
+  .ContactButton button {
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+  }
+  textarea {
+    height: 80px;
+  }
+}
+
+@media only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) {
+  .FormContainer {
+    margin-bottom: 50px;
+  }
+  .ContactButton button {
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+  }
+  textarea {
+    height: 80px;
+  }
+}

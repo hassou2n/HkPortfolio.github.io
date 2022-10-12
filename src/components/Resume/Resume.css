@@ -130,3 +130,22 @@
 
 @media screen and (max-width: 300px) {
 }
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) { 
+
+.ResumeButton button {
+  width: 160px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.ResumeContainer div > h1 {
+  font-size: 20px;
+}
+.ResumeContainer div > h1 > span {
+  font-size: 40px;
+}
+    }

@@ -32,3 +32,49 @@
 .svg-inline--fa {
   height: 2em;
 }
+
+
+
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) { 
+      .footer {
+        padding-top: 10px;
+        height: 2.5rem;
+      }
+      
+      .footer-container {
+        height: 2.5rem;
+      }
+      .hk{
+        font-size: 10px;
+      }
+      
+      .svg-inline--fa {
+        height: 1.5em;
+      }
+    
+    }
+
+ 
+  @media only screen
+      and (device-width : 812px)
+      and (device-height : 375px)
+      and (-webkit-device-pixel-ratio : 3) { 
+  
+        .footer {
+          padding-top: 10px;
+          height: 2.5rem;
+        }
+        
+        .footer-container {
+          height: 2.5rem;
+        }
+        
+        
+        .svg-inline--fa {
+          height: 1.5em;
+        }
+        
+      }

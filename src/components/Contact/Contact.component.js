@@ -26,7 +26,7 @@ export const Contact = () => {
 
               <input type="hidden" name="_captcha" value="false" />
 
-                {/* <input type="hidden" name="_next" value="" /> */}
+                <input type="hidden" name="_next" value="https://github.com/hassou2n/hkportfolio.github.io/blob/main/src/components/Contact/MessageHasBeenSent.component.js" />
                 
               <p type="Name*">
                 <label for="name"></label>
