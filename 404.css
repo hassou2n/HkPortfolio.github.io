@@ -16,8 +16,8 @@ body {
 
 img {
   margin: 0;
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
 }
 
 h1 {
@@ -29,16 +29,14 @@ h1 {
   color: #ffff;
   font-size: 30px;
 }
-.p2 {
-  color: #ffff;
-  font-size: 15px;
-  margin: 30px;
-  display:block;
-}
 
+form {
+  margin: 30px;
+  font-size: 15px;
+  color: #ffff;
+}
 a {
   text-decoration: none;
   color: #ffb632;
-  display:inline-block;
   cursor: pointer;
 }
