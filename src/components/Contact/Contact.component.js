@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Contact.css";
 import { MessageHasBeenSent } from "./MessageHasBeenSent.component";
 
+
 export const Contact = () => {
   const [isSubmit, setIsSubmit] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
     setIsSubmit(true);
   };
-
+  
   return (
     <div className="Contact">
       <div className="ContactContainer">
@@ -26,8 +27,8 @@ export const Contact = () => {
 
               <input type="hidden" name="_captcha" value="false" />
 
-                {/* <input type="hidden" name="_next" value="https://github.com/hassou2n/hkportfolio.github.io/blob/main/src/components/Contact/MessageHasBeenSent.component.js" /> */}
-                
+              {/* <input type="hidden" name="_next" value="https://github.com/hassou2n/hkportfolio.github.io/blob/main/src/components/Contact/MessageHasBeenSent.component.js" /> */}
+
               <p type="Name*">
                 <label for="name"></label>
                 <input name="name" id="name" required></input>
@@ -44,7 +45,8 @@ export const Contact = () => {
                 <button type="submit" onSubmit={onSubmit}>
                   Send Message
                   {isSubmit}
-                </button>
+                  </button>
+                  
               </p>
             </form>
           </div>
