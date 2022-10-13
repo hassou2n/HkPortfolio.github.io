@@ -104,33 +104,41 @@
   .social-media-icon-container {
     gap: 0.6rem;
   }
+  .footer {
+    height: 5rem;
+  }
+  .footer-container {
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 5rem;
+  }
+
   .hk {
     font-size: 10px;
+    padding-top: 5px;
+  }
+
+  .svg-inline--fa {
+    height: 1.5em;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .social-media-icon-container {
-    gap: 0.4rem;
-  }
-  .hk {
-    font-size: 8px;
-  }
-  .svg-inline--fa {
-    height: 1em;
-  }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .footer {
-    height: 2.5rem;
+    height: 5rem;
+  }
+  .footer-container {
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 5rem;
   }
 
-  .footer-container {
-    height: 2.5rem;
-  }
   .hk {
     font-size: 10px;
+    padding-top: 5px;
   }
 
   .svg-inline--fa {
