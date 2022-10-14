@@ -1,57 +1,56 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import { MessageHasBeenSent } from "./MessageHasBeenSent.component";
-
+import { MessageDone } from "./MessageDone.component";
 
 export const Contact = () => {
-  const [isSubmit, setIsSubmit] = useState(false);
-  const onSubmit = (e) => {
+  const [isSubmit, setIsSubmit] = useState(true);
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    setIsSubmit(true);
+
+    emailjs
+      .sendForm(
+        "service_l1gfwpi",
+        "template_pjsdh7d",
+        form.current,
+        "JNTumgYcodetCGPJb"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setIsSubmit(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
-  
+
   return (
     <div className="Contact">
-      <div className="ContactContainer">
-        <h1 className="Tittle">Contact</h1>
-        {isSubmit ? (
-          <MessageHasBeenSent />
-        ) : (
+      {isSubmit ? (
+        <MessageDone />
+      ) : (
+        <div className="ContactContainer">
+          <h1 className="Tittle">Contact</h1>
           <div className="FormContainer">
-            <form
-              class="form"
-              action="https://formsubmit.co/fffac22df08494264870d4e128c4058a"
-              method="POST"
-            >
-              <input className="None" type="text" name="_honey" />
-
-              <input type="hidden" name="_captcha" value="false" />
-
-              {/* <input type="hidden" name="_next" value="https://github.com/hassou2n/hkportfolio.github.io/blob/main/src/components/Contact/MessageHasBeenSent.component.js" /> */}
-
-              <p type="Name*">
-                <label for="name"></label>
-                <input name="name" id="name" required></input>
-              </p>
-              <p type="Email*">
-                <label for="email"></label>
-                <input name="email" id="name" required></input>
-              </p>
-              <p type="Message*">
-                <label for="message"></label>
-                <textarea name="message" id="message" required></textarea>
-              </p>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name*</label>
+              <input type="text" name="from_name" required />
+              <label>Email*</label>
+              <input type="email" name="from_email" required />
+              <label>Message*</label>
+              <textarea name="message" required />
               <p className="ContactButton">
-                <button type="submit" onSubmit={onSubmit}>
-                  Send Message
-                  {isSubmit}
-                  </button>
-                  
+                <input type="submit" value="Send Message" />
               </p>
             </form>
           </div>
-        )}
-      </div>
+        </div>
+      )}
+      ;
     </div>
   );
 };

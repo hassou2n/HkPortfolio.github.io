@@ -21,6 +21,7 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
+  margin-bottom: 5px;
   box-sizing: border-box;
   background: none;
   outline: none;
@@ -53,7 +54,8 @@ textarea:focus {
   justify-content: right;
 }
 
-.ContactButton button {
+.ContactButton input {
+  padding: 0;
   width: 154px;
   height: 30px;
   border: none;
