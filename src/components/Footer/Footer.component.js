@@ -7,7 +7,6 @@ export const Footer = () => {
       <div className="footer">
         <div className="footer-container">
           <div className="hk">© 2022 by Hussein Khaleefah. </div>
-          
            <div className="social-media-icon-container">
              <div> <a href="https://www.facebook.com/hassou2n/" target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faFacebook} /></a></div>
              <div> <a href="https://www.instagram.com/hassou2n/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faInstagram} /></a></div>

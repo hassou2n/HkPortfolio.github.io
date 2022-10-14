@@ -115,10 +115,11 @@
       line-height: 18px;
     }
     .ITitle strong {
-      font-size: 33px;
+      font-size: 30px;
     }
   }
 }
+
 @media screen and (max-width: 1000px) {
   .circle-image img {
     right: -16px;

@@ -14,7 +14,12 @@ export const MyProjects = () => {
 
           <div className="DivContainer">
             <p>
-            <ul><li>Graduation project, from HackYourFuture is an React app built in a teams, Task was splitted between students.</li></ul>
+              <ul>
+                <li>
+                  Graduation project, from HackYourFuture is an React app built
+                  in a teams, Task was splitted between students.
+                </li>
+              </ul>
             </p>
             <p>
               <p>
@@ -45,12 +50,13 @@ export const MyProjects = () => {
 
           <div className="DivContainer">
             <p>
-            <ul>
-              <li>Application for sharing meals: frontend part was
-              created in React, made database using SQL, and backernd created
-                using Nodejs and Knexjs.
+              <ul>
+                <li>
+                  Application for sharing meals: frontend part was created in
+                  React, made database using SQL, and backernd created using
+                  Nodejs and Knexjs.
                 </li>
-                </ul>
+              </ul>
             </p>
 
             <p>
@@ -82,7 +88,9 @@ export const MyProjects = () => {
 
           <div className="DivContainer">
             <p>
-              <ul><li>One page application created in React.</li></ul>
+              <ul>
+                <li>One page application created in React.</li>
+              </ul>
             </p>
 
             <p>
