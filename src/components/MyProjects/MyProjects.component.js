@@ -69,7 +69,7 @@ export const MyProjects = () => {
                 />
                 <p className="ProjectsButton">
                   <a
-                    href="https://staging-kp-toolbox-fp-class21.herokuapp.com/"
+                    href="https://hassou2n-hyf-meal-sharing.herokuapp.com/meals"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -103,7 +103,7 @@ export const MyProjects = () => {
                 />
                 <p className="ProjectsButton">
                   <a
-                    href="https://staging-kp-toolbox-fp-class21.herokuapp.com/"
+                    href="https://hassou2n.github.io/todolist-by-hk/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
