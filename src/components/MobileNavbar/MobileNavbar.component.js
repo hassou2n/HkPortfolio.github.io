@@ -13,7 +13,7 @@ export const MobileNavbar = (props) => {
           props.handleMobile(false);
         }}
       >
-        ABOUT ME
+       About Me
       </Link>
       <Link
         to="/resume"
@@ -21,7 +21,7 @@ export const MobileNavbar = (props) => {
           props.handleMobile(false);
         }}
       >
-        RESUME
+        Resume
       </Link>
       <Link
         to="/projects"
@@ -29,7 +29,7 @@ export const MobileNavbar = (props) => {
           props.handleMobile(false);
         }}
       >
-        PROJECTS
+       Projects
       </Link>
       <Link
         to="/contact"
@@ -37,7 +37,7 @@ export const MobileNavbar = (props) => {
           props.handleMobile(false);
         }}
       >
-        CONTACT
+       Contact
       </Link>
     </nav>
   );

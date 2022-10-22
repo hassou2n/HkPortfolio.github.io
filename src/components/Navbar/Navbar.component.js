@@ -5,63 +5,62 @@ import "./Navbar.css";
 
 export const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
-
   return (
-    <header className="header-container">
-      <div className="nav-bar">
-        <div className="nav-bar-container">
-          <div className="logo">
-            <Link to="/">
-              <span>
-                <img
-                  src="assets/images/HkLogo.jpg"
-                  alt="HkLogo"
-                  width="60px"
-                />
-              </span>
-            </Link>
-          </div>
-          <nav className="navbar-links-container">
-            <Link className="navbar-link" to="/">
-              <span>•</span>ABOUT ME
-            </Link>
-            <Link className="navbar-link" to="/resume">
-              <span>•</span>RESUME
-            </Link>
-            <Link className="navbar-link" to="/projects">
-              <span>•</span>PROJECTS
-            </Link>
-            <Link className="navbar-link" to="/contact">
-              <span>•</span>CONTACT
-            </Link>
-            <button
-              type="button"
-              className={`mobile-open-button ${isMobileNavOpen ? "open" : ""}`}
-              onClick={() => {
-                setIsMobileNavOpen(!isMobileNavOpen);
-              }}
-            >
-              {isMobileNavOpen ? (
-                <div className="_2_1Hw _1XNn4">
-                  <div className="_2x2ES _3SfeL _2Gsgc"></div>
-                  <div className="_2x2ES _2vsXM"></div>
-                  <div className="_2x2ES _3SfeL _24e0Q"></div>
-                </div>
-              ) : (
-                <div className="_2_1Hw">
-                  <div className="_2x2ES _3SfeL _2Gsgc"></div>
-                  <div className="_2x2ES _2vsXM"></div>
-                  <div className="_2x2ES _3SfeL _24e0Q"></div>
-                </div>
-              )}
-            </button>
-          </nav>
-          <MobileNavbar
-            open={isMobileNavOpen}
-            handleMobile={setIsMobileNavOpen}
-          />
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <Link class="navbar-brand" to="/">
+          <img src="assets/images/HkLogo.jpg" alt="HkLogo" width="60px" />
+        </Link>
+        <button
+          type="button"
+          className={`mobile-open-button ${isMobileNavOpen ? "open" : ""}`}
+          onClick={() => {
+            setIsMobileNavOpen(!isMobileNavOpen);
+          }}
+        >
+          {isMobileNavOpen ? (
+            <div className="_2_1Hw _1XNn4">
+              <div className="_2x2ES _3SfeL _2Gsgc"></div>
+              <div className="_2x2ES _2vsXM"></div>
+              <div className="_2x2ES _3SfeL _24e0Q"></div>
+            </div>
+          ) : (
+            <div className="_2_1Hw">
+              <div className="_2x2ES _3SfeL _2Gsgc"></div>
+              <div className="_2x2ES _2vsXM"></div>
+              <div className="_2x2ES _3SfeL _24e0Q"></div>
+            </div>
+          )}
+        </button>
+        <MobileNavbar
+          open={isMobileNavOpen}
+          handleMobile={setIsMobileNavOpen}
+        />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase ">
+            <li class="nav-item">
+              <Link class="nav-link " to="/">
+              <span className="dot">•</span>About Me
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/resume">
+              <span className="dot">•</span>Resume
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/projects">
+              <span className="dot">•</span>Projects
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/contact">
+              <span className="dot">•</span>Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
