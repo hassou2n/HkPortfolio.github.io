@@ -6,7 +6,7 @@ import "./Navbar.css";
 export const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container">
         <Link class="navbar-brand" to="/">
           <img src="assets/images/HkLogo.jpg" alt="HkLogo" width="60px" />
@@ -40,22 +40,22 @@ export const Navbar = () => {
           <ul class="navbar-nav ms-auto text-uppercase ">
             <li class="nav-item">
               <Link class="nav-link " to="/">
-              <span className="dot">•</span>About Me
+                <span className="dot">•</span>About Me
               </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/resume">
-              <span className="dot">•</span>Resume
+                <span className="dot">•</span>Resume
               </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/projects">
-              <span className="dot">•</span>Projects
+                <span className="dot">•</span>Projects
               </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/contact">
-              <span className="dot">•</span>Contact
+                <span className="dot">•</span>Contact
               </Link>
             </li>
           </ul>
