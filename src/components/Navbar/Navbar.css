@@ -1,30 +1,20 @@
-.header-container {
-  padding-top: 30px;
-  padding-bottom: 70px;
-  top: 0;
-  background: #ffffff;
-}
-
-.nav-bar {
-  background: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-}
-
-.logo{
-  border: #ffffff solid 3px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
+.navbar-nav a {
+  color: #2c2c2c;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.navbar-nav a:focus {
+  color: #2c2c2c;
+}
+.navbar-nav a:hover {
+  color: #ffb632;
+}
+
+.dot {
+  color: #ffb632;
+  font-size: 3rem;
+  padding-bottom: 8px;
 }
 
 ._2_1Hw {
@@ -77,80 +67,13 @@
   transform: rotate(-45deg);
 }
 
-.nav-bar-container {
-  width: 1220px;
-  height: calc(100% - 1rem);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.logo a {
-  font-size: 1.75rem;
-  text-decoration: none;
-}
-
-.logo a span {
-  display: flex;
-  align-items: center;
-  text-align: left;
-  color: #ffb632;
-  font-size: 48px;
-}
-
-.navbar-button {
-  background-color: inherit;
-  outline: none;
-  border: none;
-  padding: 0;
-}
-
-.navbar-button:hover {
-  cursor: pointer;
-}
-
-.logo a,
-.navbar-link,
-.navbar-button,
-.user-name-container {
-  color: #2c2c2c;
-}
-
-.navbar-links-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.navbar-links-container {
-  gap: 2rem;
-}
-
-.user-name-container {
-  margin-right: 2rem;
-}
-
-.navbar-link {
-  font-size: 1rem;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-
-.navbar-link > span {
-  font-size: 50px;
-  color: #ffb632;
+.mobile-nav-bar a:hover {
+  color: #fff;
 }
 
 .mobile-open-button {
-  font-size: 2.5rem;
-  color: rgb(245 245 245);
   border: none;
   background: transparent;
-  padding: 0;
   z-index: 999;
   cursor: pointer;
 }
@@ -172,156 +95,8 @@
   pointer-events: none;
 }
 
-@media screen and (max-width: 1300px) {
-  .nav-bar-container {
-    width: 90vw;
-  }
-
-  .navbar-links-container {
-    gap: 1.5rem;
-  }
-
-  .user-name-container {
-    margin-right: 1.5rem;
-  }
-
-  .navbar-link {
-    font-size: 1rem;
-  }
-
-  .logo a > span {
-    font-size: 1.65rem;
-  }
-
-  .logo a > span > span {
-    font-size: 1.35rem;
-  }
-}
-
-@media screen and (max-width: 1230px) {
-
-  .header-container {
-    padding-bottom: 70px;
-  }
-
-  .navbar-links-container > .navbar-link,
-  .navbar-link span {
-    display: none;
-  }
-
-  .navbar-icon {
-    margin-right: 0;
-  }
-
-  .nav-bar-container {
-    padding: 0;
-  }
-
+@media screen and (max-width: 991px) {
   .mobile-open-button {
     display: block;
   }
 }
-
-@media screen and (max-width: 650px) {
-  .nav-bar-container {
-    height: calc(100% - 0.5rem);
-  }
-
-  .nav-bar::after {
-    height: 0.5rem;
-  }
-
-  .navbar-links-container {
-    gap: 1rem;
-  }
-
-  .logo::after {
-    height: 2px;
-    bottom: -2px;
-  }
-
-  .logo a > span {
-    font-size: 1.3rem;
-  }
-
-  .navbar-icon {
-    height: 2.3rem;
-  }
-
-  .mobile-open-button {
-    font-size: 2.3rem;
-  }
-
-  .mobile-open-button.open {
-    font-size: 3.6rem;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .navbar-links-container {
-    gap: 0.5rem;
-  }
-
-  .navbar-icon {
-    height: 2rem;
-  }
-
-  .mobile-open-button {
-    font-size: 2rem;
-  }
-
-  .mobile-open-button.open {
-    font-size: 3.1rem;
-  }
-
-  .logo a > span {
-    font-size: 1.15rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .logo a > span {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .navbar-links-container {
-    gap: 0.3rem;
-  }
-
-  .navbar-icon {
-    height: 1.7rem;
-  }
-
-  .mobile-open-button {
-    font-size: 1.7rem;
-  }
-
-  .mobile-open-button.open {
-    font-size: 2.6rem;
-  }
-
-  .logo a {
-    font-size: 0.7rem;
-  }
-}
-
-
-
-@media only screen
-    and (device-width : 375px)
-    and (device-height : 812px)
-    and (-webkit-device-pixel-ratio : 3) { 
-    
-   
-    }
-
- 
-  @media only screen
-      and (device-width : 812px)
-      and (device-height : 375px)
-      and (-webkit-device-pixel-ratio : 3) { 
-  
-
-      }
