@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
@@ -37,6 +39,10 @@ export const Contact = () => {
           <h1 className="Tittle">Contact</h1>
           <div className="FormContainer">
             <form ref={form} onSubmit={sendEmail}>
+              <p className="P1">
+                You can contact me directly via e-mail or use the form below.
+              </p>
+              <p>My e-mai: husseinosamah2@gmail.com</p>
               <label>Name*</label>
               <input type="text" name="from_name" required />
               <label>Email*</label>

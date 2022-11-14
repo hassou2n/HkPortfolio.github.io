@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MobileNavbar } from "../MobileNavbar/MobileNavbar.component";
@@ -9,7 +11,8 @@ export const Navbar = () => {
     <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container">
         <Link class="navbar-brand" to="/">
-          <img src="assets/images/HkLogo.jpg" alt="HkLogo" width="60px" />
+          {/* <img src="assets/images/HkLogo.jpg" alt="HkLogo" width="60px" /> */}
+          Hk
         </Link>
         <button
           type="button"
