@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./MyProjects.css";
 
@@ -96,7 +98,7 @@ export const MyProjects = () => {
             <p>
               <p>
                 <img
-                  src="assets/images/ChameleonTodoListApp.jpg"
+                  src="assets/images/Chameleon.jpg"
                   width="800px"
                   height="450px"
                   alt="img"

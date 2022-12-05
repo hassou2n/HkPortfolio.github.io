@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+/** @format */
+
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar.component";
 import { Footer } from "./components/Footer/Footer.component";
@@ -12,21 +14,14 @@ function App() {
     <div className="app">
       <Router>
         <Navbar />
-        <RouteList />
-        <Footer/>
+        <AboutMe />
+        <Resume />
+        <MyProjects />
+        <Contact />
+        <Footer />
       </Router>
     </div>
   );
 }
 
-const RouteList = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<AboutMe />} />
-      <Route path="/resume" element={<Resume />} />
-      <Route path="/projects" element={<MyProjects />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
-  );
-};
 export default App;
