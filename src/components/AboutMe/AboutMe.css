@@ -1,13 +1,9 @@
+/** @format */
+
 .AboutMe {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(
-    to right,
-    #ffb632 0%,
-    #ffb632 30%,
-    #2c2c2c 30%,
-    #2c2c2c 100%
-  );
+  background: #2c2c2c;
   display: flex;
   justify-content: center;
   color: #ffffff;

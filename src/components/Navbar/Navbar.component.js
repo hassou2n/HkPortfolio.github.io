@@ -1,7 +1,6 @@
 /** @format */
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { MobileNavbar } from "../MobileNavbar/MobileNavbar.component";
 import "./Navbar.css";
 
@@ -10,10 +9,9 @@ export const Navbar = () => {
   return (
     <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container">
-        <Link class="navbar-brand" to="/">
+        <a class="navbar-brand" href="aboutMe">
           {/* <img src="assets/images/HkLogo.jpg" alt="HkLogo" width="60px" /> */}
-          Hk
-        </Link>
+        </a>
         <button
           type="button"
           className={`mobile-open-button ${isMobileNavOpen ? "open" : ""}`}
@@ -42,24 +40,24 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto text-uppercase ">
             <li class="nav-item">
-              <Link class="nav-link " to="/">
+              <a class="nav-link " href="aboutMe">
                 <span className="dot">•</span>About Me
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/resume">
+              <a class="nav-link" href="#resume">
                 <span className="dot">•</span>Resume
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/projects">
+              <a class="nav-link" href="#projects">
                 <span className="dot">•</span>Projects
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/contact">
+              <a class="nav-link" href="#contact">
                 <span className="dot">•</span>Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
