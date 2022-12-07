@@ -1,4 +1,7 @@
+/** @format */
+
 .Resume {
+  padding-top: 15%;
   width: 100%;
   min-height: 100vh;
   background: #2c2c2c;
@@ -7,7 +10,7 @@
 }
 
 .ResumeContainer {
-  width: 80%;
+  width: 100%;
 }
 
 .Tittle {
@@ -17,7 +20,7 @@
 
 .ResumeButton {
   display: flex;
-  justify-content: right;
+  align-items: flex-end;
 }
 
 .ResumeButton button {
@@ -26,70 +29,216 @@
   height: 30px;
   border: none;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   color: #2c2c2c;
 }
 
-.ResumeContainer div {
-  width: 100%;
-  border: solid #ffffff;
+.experienceEducation {
+  margin-bottom: 10px;
   background-color: #ffffff;
-  box-shadow: #ffffff;
-  margin: 30px 0 60px 0;
 }
 
-.ResumeContainer div > h1 {
-  height: 50px;
+.experienceEducationContainer {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.ResumeContainer div > h1 > span {
-  color: #ffb632;
-  font-size: 80px;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.ResumeContainer div > p {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  margin-left: 15px;
-}
-
-.ResumeContainer div ul {
-  list-style: none;
-}
-
-.ResumeContainer div ul ::before {
-  content: "\2022";
-  color: #ffb632;
   font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
-.ResumeContainer div > p > span {
+.experienceEducationContainer > span {
   color: #ffb632;
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
 }
 
-.Other {
+.years {
+  display: flex;
+  justify-content: center;
+  background-color: #ffb632;
+  width: 120px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+.experienceEducationTittle {
+  font-size: 16px;
+  font-weight: bold;
+}
+.experienceEducationD {
+  font-size: 12px;
+}
+
+.skillsLanguages {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.skillsLanguages .col {
+  background-color: #2c2c2c;
+}
+.skillsLanguagesTittle {
   color: #ffb632;
+  font-weight: bold;
 }
 
-.Other span {
-  margin-left: 5px;
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skillsLanguages ul > p > span {
+  background: #fff;
+  height: 6px;
+  width: 50%;
 }
 
-.OtherUl {
-  margin-left: 15px;
+.skillsLanguages ul > p > span > span {
+  height: inherit;
+  background-color: #ffb632;
+  background: linear-gradient(90deg, #ffb632, #ffb632);
+  position: absolute;
+}
+
+.Html5 {
+  width: 20%;
+  animation: Html5 2s ease-out;
+}
+.Css3 {
+  width: 20%;
+  animation: Css3 2s ease-out;
+}
+.JavaScript {
+  width: 20%;
+  animation: JavaScript 2s ease-out;
+}
+
+.MySQL {
+  width: 20%;
+  animation: MySQL 2s ease-out;
+}
+
+.Reactjs {
+  width: 20%;
+  animation: Reactjs 2s ease-out;
+}
+.Nodejs {
+  width: 20%;
+  animation: Nodejs 2s ease-out;
+}
+.Knexjs {
+  width: 20%;
+  animation: Knexjs 2s ease-out;
+}
+.Expressjs {
+  width: 20%;
+  animation: Expressjs 2s ease-out;
+}
+.Git {
+  width: 20%;
+  animation: Git 2s ease-out;
+}
+@keyframes Html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Css3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes JavaScript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes MySQL {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Nodejs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Expressjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Git {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+.Arabic {
+  width: 20%;
+  animation: Arabic 2s ease-out;
+}
+.Danish {
+  width: 20%;
+  animation: Danish 2s ease-out;
+}
+.English {
+  width: 20%;
+  animation: English 2s ease-out;
+}
+@keyframes Arabic {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes Danish {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes English {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 1420px) {

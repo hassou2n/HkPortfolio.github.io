@@ -10,90 +10,187 @@ export const Resume = () => {
         <div className="ResumeContainer">
           <h1 className="Tittle">Resume</h1>
 
-          <p className="ResumeButton">
+          <p className="ResumeButton container">
             <a href="assets/Hussein Khaleefah CV.pdf" download>
               <button>Download CV</button>
             </a>
           </p>
 
-          <div>
-            <h1>
-              <span>•</span>Education
-            </h1>
-            <p>
-              <ul>
-                <li>Udemy, Master JavaScript | Jun 2021 - Present</li>
-                <li>
-                  HackYourFuture, Full Stack Development | Nov 2021 - Aug 2022
-                </li>
-                <li>
-                  Iraqi School of Sofia, BG, High School | Sep 2015 - Jun 2018
-                </li>
-              </ul>
-            </p>
+          <div className="experienceEducation text-center">
+            <div className="experienceEducationContainer col-md-auto">
+              Experience
+            </div>
+            <div class="container text-start">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div className="years">2022 - Present </div>
+                  <p className="experienceEducationTittle">Pizza Maker</p>
+                  <p className="experienceEducationD"></p>
+                </div>
+                <div class="col-sm-4">
+                  <div className="years">2016 - 2017</div>
+                  <p className="experienceEducationTittle">
+                    Computer & Phone Repairman
+                  </p>
+                  <p className="experienceEducationD">
+                    Repairing all types of computers and software, iPhone and
+                    iPad.
+                  </p>
+                </div>
+                <div class="col-sm-4 ">
+                  <div className="years">2015 - Present </div>
+                  <p className="experienceEducationTittle">Artist</p>
+                  <p className="experienceEducationD">
+                    I draw portraits of people's faces.
+                    <br />
+                    One of my projects, I painted 6 large paintings for an
+                    asylum center in Denmark for a bilspanard hall.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div>
-            <h1>
-              <span>•</span>Experience
-            </h1>
-            <p>
-              <ul>
-                <li>
-                  Freelance platforms exert Social media | Jan 2016 - Present
-                </li>
-                <li>
-                  Mobile Store, Computer & Phone Repairman | Feb 2016 - Nov 2017
-                </li>
-              </ul>
-            </p>
+          <div className="experienceEducation text-center">
+            <div className="experienceEducationContainer col-md-auto">
+              Education
+            </div>
+            <div class="container text-start">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div className="years">2021 - Present</div>
+                  <p className="experienceEducationTittle">Master JavaScript</p>
+                  <p className="experienceEducationD">
+                    Udemy, A 69-hour syllabus of JavaScript from Zero to Expert.
+                    <br />
+                    What I’ve Learned
+                    <br />
+                    -JavaScript fundamentals: variables, if/else, operators,
+                    boolean logic, functions, arrays, objects, loops, strings,
+                    etc.
+                    <br />
+                    - Modern OOP: Classes, constructors, prototypal inheritance,
+                    encapsulation, etc.
+                    <br />
+                    - Asynchronous JavaScript: Event loop, promises,
+                    async/await, AJAX calls and APIs.
+                    <br />
+                    - How to think and work spanke a developer: problem-solving,
+                    researching, workflows.
+                    <br />
+                    - Complex concepts spanke the 'this' keyword, higher-order
+                    functions, closures, etc.
+                    <br />- Practice your skills with 50+ challenges and
+                    assignments (solutions included).
+                  </p>
+                </div>
+                <div class="col-sm-4">
+                  <div className="years">2021 - 2022</div>
+                  <p className="experienceEducationTittle">
+                    Full Stack Development
+                  </p>
+                  <p className="experienceEducationD">
+                    HackYourFuture, A 28-week course designed to cover all
+                    aspects of full stack web developer including HTML, CSS,
+                    JavaScript, NodeJS, ExpressJS, MySQL and ReactJS.
+                  </p>
+                </div>
+                <div class="col-sm-4">
+                  <div className="years">2015 - 2018 </div>
+                  <p className="experienceEducationTittle">High School</p>
+                  <p className="experienceEducationD">
+                    Iraqi School of Sofia, BG
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="skillsLanguages text-start">
+            <div class="row">
+              <div class="col">
+                <div className="skillsLanguagesTittle">Skills</div>
+                <ul>
+                  <p>
+                    HTML5
+                    <span>
+                      <span className="Html5"></span>
+                    </span>
+                  </p>
 
-          <div>
-            <h1>
-              <span>•</span>Skills
-            </h1>
-            <p>
-              <ul>
-                <li>HTML5</li>
-                <li>Cascading Style Sheets (CSS)</li>
-                <li>JavaScript</li>
-                <li>MySQL</li>
-                <li>Reactis</li>
-                <li>Nodejs</li>
-                <li>Knexis</li>
-                <li>Expressjs</li>
-                <li>Git</li>
-              </ul>
-            </p>
-          </div>
-
-          <div>
-            <h1>
-              <span>•</span>Other
-            </h1>
-            <p className="Other">
-              <span>•</span>Languages
-            </p>
-            <p>
-              <ul className="OtherUl">
-                <li>Arabic</li>
-                <li>Danish</li>
-                <li>English</li>
-              </ul>
-            </p>
-            <p className="Other">
-              <span>•</span>Hobbies
-            </p>
-            <p>
-              <ul className="OtherUl">
-                <li>Billiards</li>
-                <li>Coding</li>
-                <li>Drawing</li>
-                <li>Table tennis</li>
-                <li>Volleyball</li>
-              </ul>
-            </p>
+                  <p>
+                    CSS
+                    <span>
+                      <span className="Css3"></span>
+                    </span>
+                  </p>
+                  <p>
+                    JavaScript
+                    <span>
+                      <span className="JavaScript"></span>
+                    </span>
+                  </p>
+                  <p>
+                    MySQL
+                    <span>
+                      <span className="MySQL"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Reactjs
+                    <span>
+                      <span className="Reactjs"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Nodejs
+                    <span>
+                      <span className="Nodejs"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Knexjs
+                    <span>
+                      <span className="Knexjs"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Expressjs
+                    <span>
+                      <span className="Expressjs"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Git
+                    <span>
+                      <span className="Git"></span>
+                    </span>
+                  </p>
+                </ul>
+              </div>
+              <div class="col">
+                <div className="skillsLanguagesTittle">Languages</div>
+                <ul>
+                  <p>
+                    Arabic
+                    <span>
+                      <span className="Arabic"></span>
+                    </span>
+                  </p>
+                  <p>
+                    Danish
+                    <span>
+                      <span className="Danish"></span>
+                    </span>
+                  </p>
+                  <p>
+                    English
+                    <span>
+                      <span className="English"></span>
+                    </span>
+                  </p>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

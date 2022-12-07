@@ -2,119 +2,63 @@
 
 import React from "react";
 import "./MyProjects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/fontawesome-free-solid";
 
 export const MyProjects = () => {
   return (
     <section id="projects">
       <div className="Projects">
-        <div className="ProjectsContainer">
+        <div class="container text-center">
           <h1 className="Tittle">Projects</h1>
 
-          <div className="ProjectsContainerDiv">
-            <h1>
-              <span>•</span>KAOSPILOT TOOLBOX
-            </h1>
-
-            <div className="DivContainer">
+          <div className="row">
+            <div className="col">
+              <img
+                src="assets/images/KaospilotToolbox.jpg"
+                width="800px"
+                height="450px"
+                alt="img"
+              />
+              <p className="ProjectsTittle">KAOSPILOT TOOLBOX</p>
               <p>
-                <ul>
-                  <li>
-                    Graduation project, from HackYourFuture is an React app
-                    built in a teams, Task was splitted between students.
-                  </li>
-                </ul>
+                Graduation project, from HackYourFuture is an React app built in
+                a teams, Task was splitted between students.
               </p>
-              <p>
-                <p>
-                  <img
-                    src="assets/images/KaospilotToolbox.jpg"
-                    width="800px"
-                    height="450px"
-                    alt="img"
-                  />
-                  <p className="ProjectsButton">
-                    <a
-                      href="https://staging-kp-toolbox-fp-class21.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button>Demo</button>
-                    </a>
-                  </p>
-                </p>
-              </p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="ArrowRight" icon={faArrowRight} />
+              </a>
             </div>
-          </div>
 
-          <div>
-            <h1>
-              <span>•</span>COOKING POT
-            </h1>
-
-            <div className="DivContainer">
+            <div className="col">
+              <img
+                src="assets/images/CookingPot.jpg"
+                width="800px"
+                height="450px"
+                alt="img"
+              />
+              <p className="ProjectsTittle">COOKING POT</p>
               <p>
-                <ul>
-                  <li>
-                    Application for sharing meals: frontend part was created in
-                    React, made database using SQL, and backernd created using
-                    Nodejs and Knexjs.
-                  </li>
-                </ul>
+                Application for sharing meals: frontend part was created in
+                React, made database using SQL, and backernd created using
+                Nodejs and Knexjs.
               </p>
-
-              <p>
-                <p>
-                  <img
-                    src="assets/images/CookingPot.jpg"
-                    width="800px"
-                    height="450px"
-                    alt="img"
-                  />
-                  <p className="ProjectsButton">
-                    <a
-                      href="https://hassou2n-hyf-meal-sharing.herokuapp.com/meals"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button>Demo</button>
-                    </a>
-                  </p>
-                </p>
-              </p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="ArrowRight" icon={faArrowRight} />
+              </a>
             </div>
-          </div>
-
-          <div>
-            <h1>
-              <span>•</span>CHAMELEON
-            </h1>
-
-            <div className="DivContainer">
-              <p>
-                <ul>
-                  <li>One page application created in React.</li>
-                </ul>
-              </p>
-
-              <p>
-                <p>
-                  <img
-                    src="assets/images/Chameleon.jpg"
-                    width="800px"
-                    height="450px"
-                    alt="img"
-                  />
-                  <p className="ProjectsButton">
-                    <a
-                      href="https://hassou2n.github.io/todolist-by-hk/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button>Demo</button>
-                    </a>
-                  </p>
-                </p>
-              </p>
+            <div className="col">
+              <img
+                src="assets/images/Chameleon.jpg"
+                width="800px"
+                height="450px"
+                alt="img"
+              />
+              <p className="ProjectsTittle">CHAMELEON</p>
+              <p>One page application created in React.</p>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="ArrowRight" icon={faArrowRight} />
+              </a>
             </div>
           </div>
         </div>

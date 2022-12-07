@@ -17,20 +17,20 @@ export const MobileNavbar = (props) => {
         About Me
       </a>
       <a
-        href="#resume"
-        onClick={() => {
-          props.handleMobile(false);
-        }}
-      >
-        Resume
-      </a>
-      <a
         href="#projects"
         onClick={() => {
           props.handleMobile(false);
         }}
       >
         Projects
+      </a>
+      <a
+        href="#resume"
+        onClick={() => {
+          props.handleMobile(false);
+        }}
+      >
+        Resume
       </a>
       <a
         href="#contact"
