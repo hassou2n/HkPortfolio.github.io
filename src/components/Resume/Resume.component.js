@@ -106,87 +106,62 @@ export const Resume = () => {
             </div>
           </div>
           <div class="skillsLanguages text-start">
-            <div class="row">
-              <div class="col">
+            <div class="row container">
+              <div class="col-lg-4 col-sm-6">
                 <div className="skillsLanguagesTittle">Skills</div>
                 <ul>
-                  <p>
-                    HTML5
-                    <span>
-                      <span className="Html5"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">HTML5</span>
+                    <span class="Html5"></span>
                   </p>
-
-                  <p>
-                    CSS
-                    <span>
-                      <span className="Css3"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">CSS</span>
+                    <span class="Css3"></span>
                   </p>
-                  <p>
-                    JavaScript
-                    <span>
-                      <span className="JavaScript"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">JavaScript</span>
+                    <span class="JavaScript"></span>
                   </p>
-                  <p>
-                    MySQL
-                    <span>
-                      <span className="MySQL"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">MySQL</span>
+                    <span class="MySQL"></span>
                   </p>
-                  <p>
-                    Reactjs
-                    <span>
-                      <span className="Reactjs"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Reactjs</span>
+                    <span class="Reactjs"></span>
                   </p>
-                  <p>
-                    Nodejs
-                    <span>
-                      <span className="Nodejs"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Nodejs</span>
+                    <span class="Nodejs"></span>
                   </p>
-                  <p>
-                    Knexjs
-                    <span>
-                      <span className="Knexjs"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Knexjs</span>
+                    <span class="Knexjs"></span>
                   </p>
-                  <p>
-                    Expressjs
-                    <span>
-                      <span className="Expressjs"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Expressjs</span>
+                    <span class="Expressjs"></span>
                   </p>
-                  <p>
-                    Git
-                    <span>
-                      <span className="Git"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Git</span>
+                    <span class="Git"></span>
                   </p>
                 </ul>
               </div>
-              <div class="col">
+              <div class="col-lg-4 col-sm-6">
                 <div className="skillsLanguagesTittle">Languages</div>
                 <ul>
-                  <p>
-                    Arabic
-                    <span>
-                      <span className="Arabic"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Arabic</span>
+                    <span className="Arabic"></span>
                   </p>
-                  <p>
-                    Danish
-                    <span>
-                      <span className="Danish"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">Danish</span>
+                    <span className="Danish"></span>
                   </p>
-                  <p>
-                    English
-                    <span>
-                      <span className="English"></span>
-                    </span>
+                  <p className="pSkills">
+                    <span class="SkillsPeriod">English</span>
+                    <span className="English"></span>
                   </p>
                 </ul>
               </div>

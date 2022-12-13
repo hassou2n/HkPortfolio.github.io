@@ -78,219 +78,57 @@
 .skillsLanguages .col {
   background-color: #2c2c2c;
 }
-.skillsLanguagesTittle {
-  color: #ffb632;
-  font-weight: bold;
-}
 
-p {
+.skillsLanguages .pSkills {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
 }
-.skillsLanguages ul > p > span {
-  background: #fff;
-  height: 6px;
-  width: 50%;
+.SkillsPeriod {
+  width: 80px;
 }
-
-.skillsLanguages ul > p > span > span {
-  height: inherit;
+.skillsLanguages .pSkills span:nth-child(2) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   background-color: #ffb632;
-  background: linear-gradient(90deg, #ffb632, #ffb632);
-  position: absolute;
+  position: relative;
+  left: 5px;
 }
 
 .Html5 {
-  width: 20%;
-  animation: Html5 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #fff;
 }
 .Css3 {
-  width: 20%;
-  animation: Css3 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #fff;
 }
 .JavaScript {
-  width: 20%;
-  animation: JavaScript 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
-
 .MySQL {
-  width: 20%;
-  animation: MySQL 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
-
 .Reactjs {
-  width: 20%;
-  animation: Reactjs 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #fff;
 }
 .Nodejs {
-  width: 20%;
-  animation: Nodejs 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
 .Knexjs {
-  width: 20%;
-  animation: Knexjs 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
 .Expressjs {
-  width: 20%;
-  animation: Expressjs 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
 .Git {
-  width: 20%;
-  animation: Git 2s ease-out;
-}
-@keyframes Html5 {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Css3 {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes JavaScript {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes MySQL {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Reactjs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Nodejs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Expressjs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Git {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #fff;
 }
 
 .Arabic {
-  width: 20%;
-  animation: Arabic 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #ffb632;
 }
 .Danish {
-  width: 20%;
-  animation: Danish 2s ease-out;
+  box-shadow: 32px 0 #ffb632, 64px 0 #fff, 96px 0 #fff;
 }
 .English {
-  width: 20%;
-  animation: English 2s ease-out;
-}
-@keyframes Arabic {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes Danish {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-@keyframes English {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 20%;
-  }
-}
-
-@media screen and (max-width: 1420px) {
-}
-
-@media screen and (max-width: 1249px) {
-}
-
-@media screen and (max-width: 1080px) {
-}
-
-@media screen and (max-width: 990px) {
-}
-
-@media screen and (max-width: 899px) {
-}
-
-@media screen and (max-width: 820px) {
-}
-
-@media screen and (max-width: 809px) {
-}
-
-@media screen and (max-width: 723px) {
-}
-
-@media screen and (max-width: 670px) {
-}
-
-@media screen and (max-width: 595px) {
-}
-
-@media screen and (max-width: 560px) {
-}
-
-@media screen and (max-width: 360px) {
-}
-
-@media screen and (max-width: 300px) {
-}
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .ResumeButton button {
-    width: 160px;
-    height: 30px;
-    font-size: 14px;
-  }
-
-  .ResumeContainer div > h1 {
-    font-size: 20px;
-  }
-  .ResumeContainer div > h1 > span {
-    font-size: 40px;
-  }
+  box-shadow: 32px 0 #ffb632, 64px 0 #ffb632, 96px 0 #fff;
 }
