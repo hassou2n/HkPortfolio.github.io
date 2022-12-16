@@ -63,7 +63,7 @@ export const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div class="container text-center">
+        <div class="AboutContainer container text-center">
           <div class="row">
             <div class="col-lg-8 col-sm-8">
               <div class="circle-image">

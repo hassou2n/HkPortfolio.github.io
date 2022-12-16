@@ -1,7 +1,6 @@
 /** @format */
 
 .AboutMe {
-  padding-top: 15%;
   width: 100%;
   min-height: 100vh;
   background: #2c2c2c;
@@ -9,10 +8,14 @@
   justify-content: center;
   color: #ffffff;
 }
+.AboutContainer {
+  padding-top: 15%;
+}
 .circle-image img {
   border-radius: 50%;
   width: 400px;
   height: 350px;
+  padding-bottom: 15px;
 }
 
 .css-typing span {
@@ -29,19 +32,21 @@
 .vl {
   border-left: 2.5px solid #ffb632;
   height: 100px;
-  padding-left: 10px;
-  position: absolute;
-  top: 0;
+  position: relative;
+  left: 6.5px;
 }
 .social-media-icon-containerAboutMe {
-  position: absolute;
-  top: 0;
-  padding-left: 10px;
   flex-direction: column;
+  position: relative;
+  left: 6px;
 }
 
 .social-media-icon-containerAboutMe a {
   text-decoration: none;
+  color: #ffb632;
+}
+
+.social-media-icon-containerAboutMe a:hover {
   color: #ffb632;
 }
 
