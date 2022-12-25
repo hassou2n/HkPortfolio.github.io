@@ -11,7 +11,7 @@ export const Resume = () => {
           <h1 className="Tittle">Resume</h1>
 
           <p className="ResumeButton container">
-            <a href="assets/Hussein Khaleefah CV.pdf" download>
+            <a href="assets/HusseinKhaleefah-CV.pdf" download>
               <button>Download CV</button>
             </a>
           </p>
