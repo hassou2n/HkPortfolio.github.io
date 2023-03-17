@@ -40,7 +40,7 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto text-uppercase ">
             <li class="nav-item">
-              <a class="nav-link " href="aboutMe">
+              <a class="nav-link " href="#aboutMe">
                 <span className="dot">•</span>About Me
               </a>
             </li>

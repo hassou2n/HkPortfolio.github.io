@@ -1,6 +1,6 @@
 /** @format */
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar.component";
 import { Footer } from "./components/Footer/Footer.component";
