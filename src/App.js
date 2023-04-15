@@ -1,27 +1,42 @@
 /** @format */
-
-import { HashRouter as Router } from "react-router-dom";
-import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar.component";
-import { Footer } from "./components/Footer/Footer.component";
-import { AboutMe } from "./components/AboutMe/AboutMe.component";
-import { MyProjects } from "./components/MyProjects/MyProjects.component";
-import { Resume } from "./components/Resume/Resume.component";
-import { Contact } from "./components/Contact/Contact.component";
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "../src/css/animate.css";
+import "../src/css/bootstrap.css";
+import "../src/css/icomoon.css";
+import "../src/css/style.css";
+import Nav from "./Nav/Nav";
+import Main from "./Main/Main";
+import Work from "./Work/Work";
+import About from "./About/About";
+import Gallery from "./Gallery/Gallery";
+import Contact from "./Contact/Contact";
+import GetStarted from "./GetStarted/GetStarted";
+import Gototop from "./Gototop/Gototop";
+import Footer from "./Footer/Footer";
 function App() {
   return (
-    <div className="app">
+    <div id="page">
       <Router>
-        <Navbar />
-        <AboutMe />
-        <MyProjects />
-        <Resume />
-        <Contact />
+        <Nav />
+        <RouteList />
+        <GetStarted/>
+        <Gototop/>
         <Footer />
       </Router>
     </div>
   );
 }
 
+const RouteList = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  );
+};
 export default App;
