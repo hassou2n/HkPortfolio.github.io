@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -8,64 +9,64 @@ export default function Nav() {
       <div className="container">
         <div className="fh5co-top-logo">
           <div id="fh5co-logo">
-            <a href="/">Hussein Khaleefah</a>
+            <Link to="/">Hussein Khaleefah</Link>
           </div>
         </div>
         <div className="fh5co-top-menu menu-1 text-center">
           <ul>
             <li>
-              <a href="/work">Work</a>{" "}
+              <Link to="/work">Work</Link>{" "}
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li className="has-dropdown">
-              <a href="#/">Dropdown</a>
+              <a href="/"> Dropdown</a>
               <ul className="dropdown">
                 <li>
-                  <a href="#/">Web Design</a>
+                  <Link to="/">Web Design</Link>
                 </li>
                 <li>
-                  <a href="#/">Branding</a>
+                  <Link to="/">Branding</Link>
                 </li>
                 <li>
-                  <a href="/gallery">Gallery</a>
+                  <Link to="/gallery">Gallery</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
         <div className="fh5co-top-social menu-1 text-right">
           <ul className="fh5co-social">
             <li>
-              <a
-                href="https://www.instagram.com/hassou2n/"
+              <Link
+                to="/pathhttps://www.instagram.com/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="icon-instagram"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/hassou2n/"
+              <Link
+                to="/pathhttps://www.linkedin.com/in/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="icon-linkedin"></i>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://github.com/hassou2n/"
+              <Link
+                to="/pathhttps://github.com/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="icon-github"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "../src/css/animate.css";
 import "../src/css/bootstrap.css";
 import "../src/css/icomoon.css";
@@ -17,13 +17,15 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <div id="page">
+          <div className="App">
       <Router>
         <Nav />
         <RouteList />
-        <GetStarted/>
-        <Gototop/>
+        <GetStarted />
+        <Gototop />
         <Footer />
       </Router>
+    </div>
     </div>
   );
 }
