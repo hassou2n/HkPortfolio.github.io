@@ -31,14 +31,14 @@ export default function Contact() {
   return (
     <div id="fh5co-contact">
       <div className="container">
-        <div className="row top-line animate-box">
+        <div className="row top-line">
           <div className="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
             <h2>Say Hello</h2>
           </div>
         </div>
         <div className="row">
           <div className="col-md-8 col-md-offset-2">
-            <div className="col-md-5 col-md-pull-1 animate-box">
+            <div className="col-md-5 col-md-pull-1">
               <div className="fh5co-contact-info">
                 <h3>Contact Information</h3>
                 <ul>
@@ -60,11 +60,11 @@ export default function Contact() {
               </div>
             </div>
             {isSubmit ? (
-               <div className="col-md-7 animate-box">
+               <div className="col-md-7">
               <MessageDone />
               </div>
             ) : (
-              <div className="col-md-7 animate-box">
+              <div className="col-md-7">
                 <h3>Get In Touch</h3>
                 <form ref={form} onSubmit={sendEmail}>
                   <div className="row form-group">

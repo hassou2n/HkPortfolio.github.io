@@ -17,15 +17,15 @@ import Footer from "./Footer/Footer";
 function App() {
   return (
     <div id="page">
-          <div className="App">
-      <Router>
-        <Nav />
-        <RouteList />
-        <GetStarted />
-        <Gototop />
-        <Footer />
-      </Router>
-    </div>
+      <div className="App">
+        <Router>
+          <Nav />
+          <RouteList />
+          <GetStarted />
+          <Gototop />
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }

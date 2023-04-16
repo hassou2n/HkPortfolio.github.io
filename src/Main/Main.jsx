@@ -7,7 +7,7 @@ export default function Main() {
     <div>
       <div id="fh5co-work">
         <div className="container">
-          <div className="row top-line animate-box">
+          <div className="row top-line">
             <div class="col-md-8 col-md-offset-2 text-center">
               Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
@@ -15,7 +15,7 @@ export default function Main() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -27,7 +27,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -39,7 +39,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -51,7 +51,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -63,7 +63,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -75,7 +75,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -87,7 +87,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -99,7 +99,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -111,7 +111,7 @@ export default function Main() {
                 </div>
               </a>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center">
               <a className="work" href="portfolio_detail.html">
                 <div className="work-grid">
                   <div className="inner">
@@ -129,7 +129,7 @@ export default function Main() {
 
       <div id="fh5co-author" className="fh5co-bg-section">
         <div className="container">
-          <div className="row animate-box">
+          <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2>A little about me</h2>
             </div>
@@ -137,8 +137,8 @@ export default function Main() {
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
               <div className="author">
-                <div className="author-me author-inner animate-box"></div>
-                <div className="desc animate-box">
+                <div className="author-me author-inner"></div>
+                <div className="desc">
                   <span>Web Developer &amp; Artist</span>
                   <h3>Hussein Khaleefah</h3>
                   <p>

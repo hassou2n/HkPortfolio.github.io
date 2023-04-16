@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -9,64 +9,64 @@ export default function Nav() {
       <div className="container">
         <div className="fh5co-top-logo">
           <div id="fh5co-logo">
-            <Link to="/">Hussein Khaleefah</Link>
+            <NavLink to="/">Hussein Khaleefah</NavLink>
           </div>
         </div>
         <div className="fh5co-top-menu menu-1 text-center">
           <ul>
             <li>
-              <Link to="/work">Work</Link>{" "}
+              <NavLink to="/work">Work</NavLink>{" "}
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li className="has-dropdown">
               <a href="/"> Dropdown</a>
               <ul className="dropdown">
                 <li>
-                  <Link to="/">Web Design</Link>
+                  <NavLink to="/">Web Design</NavLink>
                 </li>
                 <li>
-                  <Link to="/">Branding</Link>
+                  <NavLink to="/">Branding</NavLink>
                 </li>
                 <li>
-                  <Link to="/gallery">Gallery</Link>
+                  <NavLink to="/gallery">Gallery</NavLink>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
         <div className="fh5co-top-social menu-1 text-right">
           <ul className="fh5co-social">
             <li>
-              <Link
+              <NavLink
                 to="/pathhttps://www.instagram.com/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="icon-instagram"></i>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
-                to="/pathhttps://www.linkedin.com/in/hassou2n/"
+              <NavLink
+                to="/pathhttps://www.NavLinkedin.com/in/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="icon-linkedin"></i>
-              </Link>
+                <i className="icon-NavLinkedin"></i>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/pathhttps://github.com/hassou2n/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="icon-github"></i>
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

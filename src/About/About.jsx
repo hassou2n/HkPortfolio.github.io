@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div id="fh5co-author">
       <div className="container">
-        <div className="row top-line animate-box">
+        <div className="row top-line">
           <div className="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
             <h2>About Me</h2>
 
@@ -17,8 +17,8 @@ export default function About() {
         <div className="row">
           <div className="col-md-8 col-md-offset-2">
             <div className="author">
-              <div className="author-me author-inner animate-box"></div>
-              <div className="desc animate-box">
+              <div className="author-me author-inner"></div>
+              <div className="desc">
                 <span>Web Developer &amp; Artist</span>
                 <h3>Hussein Khaleefah</h3>
                 <p>
@@ -65,11 +65,11 @@ export default function About() {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <h3 className="title animate-box">My Services</h3>
+                <h3 className="title">My Services</h3>
               </div>
               <div className="col-md-6 col-sm-6">
                 <div
-                  className="feature-center animate-box"
+                  className="feature-center"
                   data-animate-effect="fadeIn"
                 >
                   <span className="icon">
@@ -108,7 +108,7 @@ export default function About() {
               </div>
               <div className="col-md-6 col-sm-6">
                 <div
-                  className="feature-center animate-box"
+                  className="feature-center"
                   data-animate-effect="fadeIn"
                 >
                   <span className="icon">
@@ -152,7 +152,7 @@ export default function About() {
 
               <div className="col-md-6 col-sm-6">
                 <div
-                  className="feature-center animate-box"
+                  className="feature-center"
                   data-animate-effect="fadeIn"
                 >
                   <span className="icon">
@@ -173,7 +173,7 @@ export default function About() {
               </div>
               <div className="col-md-6 col-sm-6">
                 <div
-                  className="feature-center animate-box"
+                  className="feature-center"
                   data-animate-effect="fadeIn"
                 >
                   <span className="icon">
@@ -225,12 +225,12 @@ export default function About() {
               <div class="row">
                 <div class="col-md-12 col-md-offset-0">
                   <ul class="timeline">
-                    <li class="timeline-heading text-center animate-box">
+                    <li class="timeline-heading text-center">
                       <div>
                         <h3>Work Experience</h3>
                       </div>
                     </li>
-                    <li class="animate-box timeline-unverted">
+                    <li class="timeline-unverted">
                       <div class="timeline-badge">
                         <i class="fa-sharp fa-solid fa-briefcase"></i>
                       </div>
@@ -253,7 +253,7 @@ export default function About() {
                         </div>
                       </div>
                     </li>
-                    <li class="timeline-inverted animate-box">
+                    <li class="timeline-inverted">
                       <div class="timeline-badge">
                         <i class="fa-sharp fa-solid fa-briefcase"></i>
                       </div>
@@ -275,7 +275,7 @@ export default function About() {
                         </div>
                       </div>
                     </li>
-                    <li class="animate-box timeline-unverted">
+                    <li class="timeline-unverted">
                       <div class="timeline-badge">
                         <i class="fa-sharp fa-solid fa-briefcase"></i>
                       </div>
@@ -297,12 +297,12 @@ export default function About() {
                     </li>
 
                     <br />
-                    <li class="timeline-heading text-center animate-box">
+                    <li class="timeline-heading text-center">
                       <div>
                         <h3>Education</h3>
                       </div>
                     </li>
-                    <li class="animate-box timeline-unverted">
+                    <li class="timeline-unverted">
                       <div class="timeline-badge">
                         <i class="fa-solid fa-graduation-cap"></i>
                       </div>
@@ -330,7 +330,7 @@ export default function About() {
                         </div>
                       </div>
                     </li>
-                    <li class="timeline-inverted animate-box">
+                    <li class="timeline-inverted">
                       <div class="timeline-badge">
                         <i class="fa-solid fa-graduation-cap"></i>
                       </div>
@@ -354,7 +354,7 @@ export default function About() {
                         </div>
                       </div>
                     </li>
-                    <li class="animate-box timeline-unverted">
+                    <li class="timeline-unverted">
                       <div class="timeline-badge">
                         <i class="fa-solid fa-graduation-cap"></i>
                       </div>
@@ -388,9 +388,9 @@ export default function About() {
                 </div>
               </div>
               <div className="col-md-12">
-                <h3 className="title animate-box">My Skills</h3>
+                <h3 className="title">My Skills</h3>
                 <div className="row">
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>HTML5/CSS3</h3>
                     {/* <div className="progress">
                       <div
@@ -402,37 +402,37 @@ export default function About() {
                       ></div>
                     </div> */}
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>JavaScript</h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Reactjs</h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Nodejs</h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Expressjs</h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Bootstrap</h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Git </h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Problem-solving </h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Teamwork </h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6  skills">
                     <h3>Creativity </h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Adaptability </h3>
                   </div>
-                  <div className="col-md-6 animate-box skills">
+                  <div className="col-md-6 skills">
                     <h3>Communication </h3>
                   </div>
                 </div>

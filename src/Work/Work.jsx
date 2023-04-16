@@ -7,7 +7,7 @@ export default function Work() {
   return (
     <div id="fh5co-work">
       <div className="container">
-        <div className="row top-line animate-box">
+        <div className="row top-line">
           <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2>Work</h2>
             <p>
@@ -18,7 +18,7 @@ export default function Work() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -30,7 +30,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -42,7 +42,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -54,7 +54,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -66,7 +66,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -78,7 +78,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -90,7 +90,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -102,7 +102,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">
@@ -114,7 +114,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="col-md-4 text-center animate-box">
+          <div className="col-md-4 text-center">
             <Link className="work" to="id">
               <div className="work-grid">
                 <div className="inner">

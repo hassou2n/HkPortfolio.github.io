@@ -6,7 +6,7 @@ export default function GetStarted() {
   return (
     <div id="fh5co-started">
       <div className="container">
-        <div className="row animate-box">
+        <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2>Get Started</h2>
             <p>
