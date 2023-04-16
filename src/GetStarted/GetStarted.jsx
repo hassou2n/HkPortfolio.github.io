@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function GetStarted() {
   return (
@@ -15,9 +16,9 @@ export default function GetStarted() {
               live the blind texts.
             </p>
             <p>
-              <a href="/contact" className="btn btn-primary">
+              <Link to="/contact" className="btn btn-primary">
                 Let's work together
-              </a>
+              </Link>
             </p>
           </div>
         </div>
